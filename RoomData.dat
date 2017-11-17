@@ -48,6 +48,7 @@ H_203
 H_204
 H_205
 H_206
+H_207
 K204
 K205
 K_206
@@ -112,6 +113,7 @@ H_203 1354
 H_204 1355
 H_205 1356
 H_206 1357
+H_207 ????
 H208 1359
 H209 1360
 K204 1363
@@ -177,13 +179,14 @@ O202 20
 O301 38
 E_301 30
 E_303 20
-H_101 20
+H_101 22
 H_201 25
-H_202 16
-H_203 16
-H_204 25
+H_202 19
+H_203 19
+H_204 20
 H_205 25
 H_206 22
+H_207 30
 H208 16
 H209 16
 K204 20
@@ -250,6 +253,6 @@ set RoomInBuilding['Itrottafradasetur_Laugarvatn'] :=  K_salur K_salur_special K
 set RoomInBuilding['Logberg'] :=  L102 L103 L201 L204 L205;
 set RoomInBuilding['Oddi'] :=  O102 O103 O201 O202 O301;
 set RoomInBuilding['Stakkahlid_Enni'] :=  E_301 E_303;
-set RoomInBuilding['Stakkahlid_Hamar'] :=  H_101 H_201 H_202 H_203 H_204 H_205 H_206 H208 H209;
+set RoomInBuilding['Stakkahlid_Hamar'] :=  H_101 H_201 H_202 H_203 H_204 H_205 H_206 H_207 H208 H209;
 set RoomInBuilding['Stakkahlid_Klettur'] :=  K204 K205 K_206 K_207 K_208;
 set RoomInBuilding['VR_2'] :=  V138 V147 V152 V156 V258 V260 V261;
