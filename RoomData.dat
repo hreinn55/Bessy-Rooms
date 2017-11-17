@@ -144,8 +144,8 @@ Askja130 20
 Askja131 30
 Askja166 24
 A101 15
-A201 50
-A301 50
+A201 48
+A301 48
 A303 10
 A304 26
 A310 15
@@ -154,7 +154,7 @@ E101 12
 E103C 50
 E201C 44
 E203C 50
-EIR105C_tolvuver 8
+#EIR105C_tolvuver 8
 G101 21
 HT102 80
 HT103 54
@@ -214,8 +214,8 @@ VHV_231Tungumalamidstod
 V260
 ;
 set SpecialRooms := 
-A051
-A052
+#A051
+#A052
 A069
 A207
 A229
@@ -235,14 +235,14 @@ VHV107
 VHV108
 ;
 set SpecialComputerRooms := 
-EIR105C_tolvuver
+#EIR105C_tolvuver
 O102
 O103
 ;
 set RoomInBuilding['Adalbygging'] :=  A050 A051 A052 A069 A207 A229;
 set RoomInBuilding['Arnagardur'] :=  A101 A201 A301 A303 A304 A310 A311;
 set RoomInBuilding['Askja'] :=  Askja130 Askja131 Askja166;
-set RoomInBuilding['Eirberg'] :=  E101 E103C E201C E203C EIR105C_tolvuver;
+set RoomInBuilding['Eirberg'] :=  E101 E103C E201C E203C;
 set RoomInBuilding['Gimli'] :=  G101;
 set RoomInBuilding['Haskolatorg'] :=  HT102 HT103 HT104 HT105 HT204;
 set RoomInBuilding['HusVigdisar'] :=  VHV007 VHV103 VHV104 VHV107 VHV108 VHV_231Tungumalamidstod;
